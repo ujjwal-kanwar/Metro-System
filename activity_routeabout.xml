@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#65FF5722"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".routeabout">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="ABOUT METRO"
+        android:textColor="#F2111010"
+        android:textSize="20dp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="METRO is excited about bringing enhanced transit services to your neighborhood. We have several initiatives focused on providing great transit infrastructure for our customers. Here you will learn more about projects in active construction. You can see METRO’s progress and find out when you can start enjoying more quick, convenient and easy services."
+        android:textColor="#970F0E0E"
+        android:textSize="15dp" />
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6AFF5722"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".routefare">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="402dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#A4009688"
+            android:gravity="center"
+            android:text="Distance and Cost"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="394dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Dilshad Garden     To     Jhilmil      -       30Rs     2Km" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="391dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Dilshad Garden       To       Shahdara    -   50Rs     9Km" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=" Mansarvore park    To     Shahdara     -   40Rs     7Km" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Shahdara      To     Seelam Pur     -       30Rs         2Km" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Seelam Pur       To     Shastri Park       -       30Rs     2Km" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Ajmeri gate     To     Shastri Park       -       27Rs     13Km" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Kashmere gate     To     Jhilmil      -       30Rs     2Km" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Jhilmil     To     Ajmeri gate     -       30Rs     2Km" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Kashmere Gate    To   Jhilmil      -       27Rs     3Km" />
+
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Dilshad Garden     To     Jhilmil      -       30Rs     2Km" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Ajmeri gate     To     Jhilmil      -       30Rs     2Km" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Seelam pur  To     shastri park      -       30Rs     2Km" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Pratap Nagar     To     Jhilmil      -       30Rs     2Km" />
+
+</LinearLayout>

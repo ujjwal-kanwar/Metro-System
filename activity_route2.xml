@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6FFF5722"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:orientation="horizontal"
+        android:paddingTop="45dp">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:gravity="start"
+            android:hint="From"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="78dp"
+            android:layout_height="38dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="5dp"
+            android:background="#7C009688"
+            android:text="search" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:orientation="horizontal"
+        android:paddingTop="45dp">
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:hint="To"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="78dp"
+            android:layout_height="38dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="5dp"
+            android:background="#7C009688"
+            android:text="Search" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="129dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#7C009688"
+        android:text="Route" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="131dp"
+        android:layout_height="33dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#7C009688"
+        android:text="Other" />
+
+
+</LinearLayout>
